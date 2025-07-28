@@ -1,0 +1,14 @@
+name=(input("enter name of the student :"))
+eng=(float(input("enter english marks:")))
+mat=(float(input("enter maths marks:")))
+sci=(float(input("enter science marks:")))
+hin=(float(input("enter hindi marks:")))
+tel=(float(input("enter telugu marks :")))
+total=eng+mat+sci+hin+tel
+print("TOtal marks =",total)
+percent=total/5
+print("percentage=",percent)
+if percent>=450:
+    print("congragulations!!!")
+else:
+    print("try again!!!") 
