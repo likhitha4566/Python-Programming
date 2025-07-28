@@ -1,0 +1,19 @@
+name=(input("enter name of the coustmer :"))
+item=(int(input("cost of the each item :")))
+quantity=(int(input("no of items purchased :")))
+amount=item*quantity
+gst=12*amount/100
+total=amount+gst
+if total< 1000:
+    discount=0
+elif total< 3000:
+   discount=0.1*total 
+else :
+   discount=0.2*total 
+print("_____________________________")  
+print("amount of items purchased :",amount)  
+print("gst for items:",gst)
+print("amount plus gst",amount+gst)
+print("discount amunt  is",round(discount,2))
+print("Total amt to be paid :",round(total-discount,2))
+print("_____________________________") 
