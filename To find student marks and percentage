@@ -10,5 +10,9 @@ percent=total/5
 print("percentage=",percent)
 if percent>=450:
     print("congragulations!!!")
+elif percent>=350:
+    print("good")
+elif percent>=250:
+    print("need to workhard")
 else:
-    print("try again!!!") 
+    print("not satisfied try again!!!") 
