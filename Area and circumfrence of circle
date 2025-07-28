@@ -1,0 +1,5 @@
+r=(float(input("enter a number ")))
+area=3.14*r**2
+circumfrence=2*3.14*r**2
+print("Area of circle",round(area,2))
+print("Circumfrence of circle",round(circumfrence,2))
