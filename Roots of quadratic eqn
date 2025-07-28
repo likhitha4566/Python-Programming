@@ -1,0 +1,16 @@
+#roots for quadratic equation
+import math
+a=(float(input("enter value for a :")))
+b=(float(input("enter value for b :")))
+c=(float(input("enter value for c :")))
+d=b * b - 4 * a * c
+if d<0:
+    print("no real roots are there")
+elif d==0:
+    r1=r2=-b/(2*a)
+    print("real & equal roots",r1,r2)    
+else:
+    r1=(-b+math.sqrt(d))/(2*a)  
+    r2=(-b-math.sqrt(d))/(2*a)  
+    print("real & unequal roots",r1,r2)
+print("the quadratric equation is",d)    
