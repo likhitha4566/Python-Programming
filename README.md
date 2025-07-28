@@ -1,2 +1,2 @@
 # Python-Programming
- Python programs with cides
+ Python programs with codes
